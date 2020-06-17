@@ -1,9 +1,37 @@
 .to-do-list{
     color: blue;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
 }
 
 .to-do-item{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 5px 0px;
+    max-width: 400px;
+
+
+    >span{
+        margin-top: -4px;
+        margin-left: 20px;
+        margin-right: 20px;
+
+    }
+
+    input{
+        margin-left: 5px;
+        width: 15px;
+        height: 15px;
+     
+    
+    }
+
+    .close{
+        cursor: pointer;
+        padding: 5px;
+    }
 }
